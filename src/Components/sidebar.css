@@ -1,0 +1,22 @@
+.sidebar-flex {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 2px solid black;
+  gap: 5px;
+}
+.sidebar {
+  display: grid;
+  background-color: aliceblue;
+  grid-template-columns: 2fr 8fr;
+  grid-template-rows: 1fr;
+  align-items: flex-start;
+  border-top: 2px solid black;
+}
+.sidebar-flex img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  grid-row: span 2;
+}

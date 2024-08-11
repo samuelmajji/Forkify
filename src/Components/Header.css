@@ -1,0 +1,94 @@
+/* App.css */
+
+.bookmark-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 150px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.dropdown-item {
+  padding: 8px 12px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-item p {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ebebea;
+  color: #fff;
+  height: 70px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex-grow: 0.5;
+  margin: 0 20px;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.icon:hover {
+  color: #ccc;
+}
+
+.google-search-btn {
+  background-color: #d25839;
+  border: 1px solid #dfe1e5;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 400px;
+}
+
+.google-search-btn:hover {
+  background-color: #f1f3f4;
+}
+
+.google-search-btn:active {
+  background-color: #e8eaed;
+}
